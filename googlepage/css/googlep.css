@@ -1,0 +1,141 @@
+body {}
+
+.google-img {
+    display: block;
+}
+
+.icon {
+    width: 18px;
+    vertical-align: middle;
+}
+
+.all {
+    text-decoration: none;
+    color: #1A73E8;
+    border-bottom: 5 px solid #1A73E8;
+}
+
+.links-small {
+    color: #5f6368;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+
+.icon-wraper {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+hr {
+    width: 100%;
+    border-color: lightgray;
+    opacity: 0.3;
+    margin-top: 15px;
+}
+
+.s-result {
+    margin-top: 15px;
+    color: #70757a;
+    margin-bottom: 30px;
+}
+
+.result-head {
+    color: #1A73E8;
+    margin-bottom: 5px;
+}
+
+.links-a {
+    text-decoration: none;
+}
+
+.links {
+    color: rgb(30, 153, 6);
+    padding: 0;
+}
+
+.tag-link {
+    text-decoration: none;
+    color: #1A73E8;
+    margin-right: 5px;
+}
+
+.text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#main-grid {
+    width: 100%;
+}
+
+.left-container {
+    width: 700px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.right-container {
+    width: 460px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.para {
+    text-align: justify;
+    padding: 10px;
+}
+
+.pro1 {
+    margin-left: 20px;
+}
+
+.programing {
+    color: #70757a;
+    margin-left: 20px;
+}
+
+.r-top-container {
+    border: 1px solid hsl(220, 10%, 89%);
+}
+
+.r-bottom-container {
+    border: 1px solid hsl(220, 10%, 89%);
+}
+
+.html-image {
+    width: 180px;
+    margin-top: 20px;
+}
+
+.image-card {
+    display: inline-block;
+    margin-right: 5px;
+    width: 18%;
+}
+
+.request-img {
+    width: 88px;
+    vertical-align: top;
+}
+
+.card-container {
+    width: 100%;
+}
+
+.caption {
+    color: #1A73E8;
+    text-align: center;
+}
+
+.creater {
+    margin-left: 10px;
+}
+
+.version {
+    margin-left: 10px;
+}
