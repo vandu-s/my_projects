@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header {
+    box-shadow: 0 2px 5px #fff;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 168, 255, 0.3);
+}
+
+#left-item {
+    display: flex;
+    align-items: center;
+}
+
+#right-item {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #0084ff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding: 15px 26px;
+    border-radius: 25px;
+    margin: 0 50px;
+}
+
+.text {
+    color: gray;
+    width: 380px;
+    font-weight: 500;
+    line-height: 1;
+    opacity: 0.6;
+    letter-spacing: .4px;
+}
+
+main {
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-card {
+    width: calc(33% - 18px);
+    background-color: #fff;
+    box-shadow: 0px 5px 20px #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 168, 255, 0.3);
+    display: inline-block;
+    margin: 8px;
+    vertical-align: top;
+}
+
+.blog-img {
+    width: 100%;
+    height: 215px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.blog-content {
+    padding: 10px 24px;
+}
+
+.blog-head {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    font-style: normal;
+    margin: 0;
+    height: 40px;
+}
+
+.author-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14.4px;
+    color: #0096ff;
+    font-weight: 500;
+    margin-right: 5px;
+    padding-top: 4px;
+}
+
+.author-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-date {
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 4.2px;
+}
+
+.description {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 1.43;
+    text-align: left;
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    background-color: #172146;
+    padding: 20px;
+}
+
+.p1 {
+    color: white;
+    text-decoration: none;
+}
+
+.story {
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 80px;
+    font-size: 16px;
+    color: black;
+}
+
+.explore {
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.logo-story {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084ff;
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+.categories-container {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 6px 20px;
+    margin: 5px;
+}
+
+.category-head {
+    color: black;
+    font-weight: 600;
+    margin: 0;
+}
+
+.trending-post {
+    font-size: 36px;
+    color: black;
+    font-weight: 600;
+    margin: 40px 300px 20px;
+}
+
+#top-bar {
+    box-shadow: 0 2px 5px #fff;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 168, 255, 0.3);
+}
+
+.logo {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084ff;
+    margin-left: 80px;
+}
+
+.story {
+    margin-top: 0;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.post {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.filter {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.active-category {
+    background-color: #0084ff;
+    color: #fff;
+    padding: 6px 14px;
+    width: auto;
+    border-radius: 15px;
+    Border: 1px solid #0084ff;
+    margin: 5px;
+    Cursor: pointer;
+    display: inline-block;
+}
+
+.small {
+    padding: 8px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    Border: 1px solid #0084ff;
+    margin: 5px;
+    Cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#middle-section {}
+
+
+/*.middle-main {
+    width: 800px;
+    margin: 0 auto;
+}*/
+
+.small-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-img {
+    width: 600px;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(0, 168, 255, 0.3);
+}
+
+.small-img {
+    border-radius: 5px;
+    width: 280px;
+    height: 180px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 168, 255, 0.3);
+}
