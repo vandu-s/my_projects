@@ -7,7 +7,7 @@ body {
 /*Cover*/
 
 #cover {
-    background: #222 url(/img/stars.jpg) center center no-repeat;
+    background: #222 url(./img/stars.jpg) center center no-repeat;
     background-size: cover;
     height: 100%;
     color: #fff;
