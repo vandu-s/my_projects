@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2) url(./image/drums-conceptual-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 115px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 3px solid rgb(37, 33, 33);
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    outline: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+button span {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 0, 0.87);
+}
+
+.btn:hover {
+    border: 3px solid rgba(255, 255, 0, 0.836);
+    box-shadow: 0 3px 4px 0 #e7f707;
+    opacity: 0.5;
+}
